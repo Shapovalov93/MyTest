@@ -26,12 +26,13 @@ namespace MyTest3
 	{
 		public static void Main (string[] args)
 		{
-			int a,b,c,d;
+			int a,b,c,d,e;
 			a = 10;
 			b = 20;
 			c = 40;
 			d = 10;
-			Console.WriteLine ("{0}", a + b + c+d);
+			e = 50;
+			Console.WriteLine ("{0}", a + b + c+d+e);
 		}
 	}
 }
