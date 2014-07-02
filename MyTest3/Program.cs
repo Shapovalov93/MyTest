@@ -33,6 +33,7 @@ namespace MyTest3
 			d = 10;
 			e = 50;
 			Console.WriteLine ("{0}", a + b + c+d+e);
+			Console.WriteLine ("{0}", a * b * c * d * e);
 		}
 	}
 }
